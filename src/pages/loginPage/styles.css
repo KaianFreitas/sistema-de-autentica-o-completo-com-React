@@ -1,0 +1,62 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+    background-image: url('https://png.pngtree.com/background/20230618/original/pngtree-lakescape-landscape-nature-scenery-hd-picture-image_3712644.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#login .form {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+#login .field{
+    padding-bottom: 0.5rem;
+}
+
+#login .field label{
+    display: block;
+    color: #1d1c1c;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    user-select: none;
+}
+
+#login .field input{
+    width: 100%;
+}
+
+#login .actions{
+    text-align: center; 
+    margin-top: 0.5rem;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    user-select: none;
+}
+
+.submit {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
